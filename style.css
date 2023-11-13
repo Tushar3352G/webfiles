@@ -12,23 +12,23 @@ html,body{
 
 @font-face {
     font-family:Gilroy-Black;
-    src: url(font/Gilroy-Black.ttf);
+    src: url(font/Gilroy-Black.woff2);
 }
 @font-face {
     font-family:Gilroy-Bold;
-    src: url(font/Gilroy-Bold.ttf);
+    src: url(font/Gilroy-Bold.woff2);
 }
 @font-face {
     font-family:Gilroy-Light;
-    src: url(font/Gilroy-Light.ttf);
+    src: url(font/Gilroy-Light.woff2);
 }
 @font-face {
     font-family:Gilroy-Medium;
-    src: url(font/Gilroy-Medium.ttf);
+    src: url(font/Gilroy-Medium.woff2);
 }
 @font-face {
     font-family:Gilroy-Regular;
-    src: url(font/Gilroy-Regular.ttf);
+    src: url(font/Gilroy-Regular.woff2);
 }
 
 
