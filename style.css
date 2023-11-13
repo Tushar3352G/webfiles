@@ -1,0 +1,390 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family:62.5%;
+}
+
+@font-face {
+    font-family:Gilroy-Black;
+    src: url(font/Gilroy-Black.ttf);
+}
+@font-face {
+    font-family:Gilroy-Bold;
+    src: url(font/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family:Gilroy-Light;
+    src: url(font/Gilroy-Light.ttf);
+}
+@font-face {
+    font-family:Gilroy-Medium;
+    src: url(font/Gilroy-Medium.ttf);
+}
+@font-face {
+    font-family:Gilroy-Regular;
+    src: url(font/Gilroy-Regular.ttf);
+}
+
+
+
+a{
+    color:inherit;
+    text-decoration:inherit;
+}
+
+.navi{
+    display: flex;
+    justify-content:space-between;
+    font-family:Gilroy-Medium;
+    letter-spacing:-0.02rem;
+    font-size:0.9vw;
+    padding:3vw 7vw;
+    align-items:center;
+    position:relative;
+}
+
+.navi a{
+    display: inline-block;
+}
+
+.navi .nv-left{
+    display: flex;
+    align-items:center;
+    column-gap:3vw;
+}
+
+.navi .nv-logo{
+    font-family:Gilroy-Medium;
+    position: absolute;
+    left:50%;
+    top:50%;
+    font-size:1vw;
+    transform:translate(-50%,-50%);
+}
+
+.main{
+    width: 100%;
+}
+
+.heros{
+    width: 100%;
+    margin-top:12vw;
+    padding:0 7vw;
+   display: flex;
+  justify-content:space-between;
+   align-items:center;
+}
+
+.Sustain{
+    width:13vw;
+    height:auto;
+}
+
+.imgsustain{
+    width:9vw;
+    height:13vw;
+    overflow:hidden;
+    margin-top:1vw;
+    overflow:hidden;
+}
+
+.imgsustain img{
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+    object-position:12px 200%;
+    transform:scale(1.21);
+}
+
+.Sustain h2{
+    font-family:Gilroy-Regular;
+    font-size:0.9vw;
+}
+
+
+.Sustain h3{
+    font-family:Gilroy-Medium;
+    font-size:1vw;
+    margin-bottom:0.5vw;
+}
+
+
+.Sustain p{
+    font-family:Gilroy-Regular;
+    font-size:0.9vw;
+    opacity:0.9;
+}
+
+
+.Ephemeral {
+width:29vw;
+position:relative;
+}
+.Ephermeral-img img{
+    width:27vw;
+    padding-left:1.3vw;
+    height:36vw;
+}
+
+.Ephemeral .heading{
+    position:absolute;
+    top:-13%;
+}
+
+.Ephemeral .heading h2{
+    font-family:Gilroy-Medium;
+    font-size:4vw;
+    line-height:0.9;
+}
+.Ephemeral p{
+    font-family:Gilroy-Bold;
+    font-size:1.1vw;
+    line-height:1.3;
+    width:15vw;
+    margin-top:1vw;
+    padding-left:1.3vw;
+}
+
+.visi-bt .circleb{
+    width:2.5vw;
+    height:2.5vw;
+    border:2px solid #666;
+    display: flex;
+    border-radius:50%;
+    align-items:center;
+    justify-content:center;
+    font-size:1.25vw;
+    color:#666;
+}
+
+
+.visi-bt {
+    font-family:Gilroy-Medium;
+    text-transform:capitalize;
+    display: flex;
+    font-size:1vw;
+    align-items: center;
+    column-gap:0.5vw;
+    color:#666;
+}
+
+
+
+.motive{
+    padding:5vw 7vw;
+}
+
+.motive h2{
+    font-family:Gilroy-Medium;
+    font-size:1.5vw;
+    letter-spacing:-0.1rem;
+    text-transform:uppercase;
+    color:#000;
+    opacity:0.4;
+    padding-left: 1.5vw;
+}
+
+.motive p{
+    font-family:Gilroy-Medium;
+    font-size:2.2vw;
+    width:75%;
+    text-align:right;
+    line-height:1.5;
+    margin-left:auto;
+    margin-top:2vw;
+}
+
+.motive p span
+{
+      background-color:red;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.motive p .pimg1{
+    width:4.5vw;
+    background-image: url(images/bluegirl.jpg);
+    background-size:cover;
+    background-position: 0 60%;
+    height:2.8vw;
+    border-radius:25px;
+}
+.motive p .pimg2{
+    width:5.5vw;
+    background-size:cover;
+    background-image: url(images/shaljam.jpg);
+    background-position: 0 44%;
+    height:2.8vw;
+    border-radius:25px;
+}
+.motive p .pimg3{
+    background-size:cover;
+    background-image: url(images/grass.jpg);
+    background-position: 0 center;
+    width:4.2vw;
+    height:2.8vw;
+    border-radius:25px;
+}
+
+.picture{
+    padding:0 8vw;
+    padding-left:15vw;
+    margin-top:3vw;
+    display: flex;
+    justify-content: space-between;
+}
+.firstimg{
+    width:16vw;
+}
+.firstimg .first-img{
+    width: 100%;
+    height:25vw;
+    background-color:red;
+    margin-bottom:0.8vw;
+}
+
+.firstimg h2{
+    font-family:Gilroy-Medium;
+    font-size:1.5vw;
+    margin-bottom:0.5vw;
+}
+
+.firstimg p{
+    font-family:Gilroy-Regular;
+    font-size:1vw;
+    line-height:1.3;
+}
+
+.firstimg img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+
+.Secondimg{
+    width:28vw;
+    text-align: right;
+}
+.Secondimg .Second-img{
+    width: 100%;
+    height:40vw;
+    background-color:red;
+    margin-bottom:0.8vw;
+}
+
+.Secondimg h2{
+    font-family:Gilroy-Medium;
+    font-size:1.5vw;
+    margin-bottom:0.5vw;
+}
+
+.Secondimg p{
+    font-family:Gilroy-Regular;
+    font-size:1vw;
+    line-height:1.3;
+    width:16vw;
+    margin-left:auto;
+}
+
+.Secondimg img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.bio
+{
+    padding-right:7vw;
+    margin-top:5vw;
+    display: flex;
+    align-items:center;
+}
+
+
+.bio .bimg-left{
+    width:78%;
+    height:40vw;
+}
+
+
+.bio .bimg-left img{
+
+width: 100%;
+height: 100%;
+object-fit:cover;
+object-position:0 70%;
+
+}
+
+.bio .bimg-right{
+    width:22%;
+    padding-left:3vw;
+}
+
+.bio .bimg-right h2{
+    font-family:Gilroy-Bold;
+    font-size:2.3vw;
+    line-height: 1;
+    margin-bottom:0.8vw;
+}
+
+.bio .bimg-right p{
+    font-family:Gilroy-Regular;
+    font-size:1vw;
+}
+
+.vid-sec
+{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    margin-top:5vw;
+}
+
+.vid-sec video{
+    position: absolute;
+    width: 100%;
+    object-fit:cover;
+    height:100vh;
+    left: 0%;
+    top: 0;
+    z-index:-1;
+    opacity:0;
+}
+
+.vid-btn{
+    text-align: center;
+    background:rgba(255,255,255,0.6);
+    padding:2vw 3vw;
+    border-radius:0.8rem;
+}
+
+.vid-btn h2{
+    font-family:Gilroy-Bold;
+    font-size:2vw;
+    text-transform:capitalize;
+    letter-spacing:-0.12;
+    margin-bottom:1vw;
+}
+
+.vid-btn a{
+    font-family:Gilroy-Regular;
+    font-size:1.1vw;
+    text-transform:capitalize;
+    border-radius:1.5rem;
+    padding:0.8vw 2vw;
+    cursor: pointer;
+    display: inline-block;
+    background-color:#000;
+    color:#fff;
+}
